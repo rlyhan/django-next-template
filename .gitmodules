@@ -1,6 +1,0 @@
-[submodule "django"]
-	path = django
-	url = ./django
-[submodule "next"]
-	path = next
-	url = ./next
