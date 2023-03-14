@@ -2,8 +2,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
-    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 18px;
 }
@@ -13,12 +13,13 @@ body {
 }
 
 a {
-  color: #0070f3;
+  color: inherit;
   text-decoration: none;
+  transition: opacity 0.25s;
 }
 
 a:hover {
-  text-decoration: underline;
+  opacity: 0.5;
 }
 
 img {
