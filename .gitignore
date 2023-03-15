@@ -36,3 +36,4 @@ next/*.tsbuildinfo
 next/next-env.d.ts
 
 django/venv
+django/*/.env
