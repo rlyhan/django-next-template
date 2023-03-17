@@ -37,3 +37,5 @@ next/next-env.d.ts
 
 django/venv
 django/*/.env
+django/media
+*.pyc
