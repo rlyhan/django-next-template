@@ -11,7 +11,7 @@ Django window
 2. Run `source venv/bin/activate` to activate the virtual environment
 3. Run `pip install -r requirements.txt` to install requirements
 4. In PostgreSQL, create a new database
-5. Create a `.env` file in the `django_next_template/project` folder and specify `DATABASE_NAME`, `DATABASE_USER`, `DATABASE_PASSWORD`, `DATABASE_PORT` (eg. 5433 for Postgres 10)
+5. Create a `.env` file in the `django_next_template/django/project` folder and specify `DATABASE_NAME`, `DATABASE_USER`, `DATABASE_PASSWORD`, `DATABASE_PORT` (eg. 5433 for Postgres 10)
 6. Run `manage.py migrate` to migrate existing models
 7. Run `manage.py runserver` to run backend
 8. Visit `localhost:8000/api` to view the backend (or replace `api` with `admin` for Django admin)
